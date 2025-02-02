@@ -47,14 +47,14 @@
 			this.label1.TabIndex = 0;
 			this.label1.Text = "label1";
 			// 
-			// Form1
+			// SnakeGame
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this.label1);
-			this.Name = "Form1";
-			this.Text = "Form1";
+			this.Name = "Snake Game";
+			this.Text = "Snake Game";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
