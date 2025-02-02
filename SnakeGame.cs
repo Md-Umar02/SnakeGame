@@ -5,16 +5,16 @@ using System.Windows.Forms;
 
 namespace SnakeGame
 {
-	public partial class Form1 : Form
+	public partial class SnakeGame : Form
 	{
 		private int snakeSize = 20;
 		private int score = 0;
-		private int direction = 0; // 0 = right, 1 = down, 2 = left, 3 = up
+		private int direction = 0;
 		private Point food = new Point();
 		private Random rand = new Random();
 		private List<Point> snake = new List<Point>();
 
-		public Form1()
+		public SnakeGame()
 		{
 			InitializeComponent();
 			InitializeGame();

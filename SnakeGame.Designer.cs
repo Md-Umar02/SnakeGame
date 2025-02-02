@@ -1,6 +1,6 @@
 ﻿namespace SnakeGame
 {
-    partial class Form1
+    partial class SnakeGame
     {
         /// <summary>
         /// Required designer variable.
